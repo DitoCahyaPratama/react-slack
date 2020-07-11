@@ -10,15 +10,15 @@ import Register from './components/auth/Register';
 import 'semantic-ui-css/semantic.min.css'
 
 ReactDOM.render(
-	<React.StrictMode>
+	// <React.StrictMode>
 		<Router>
 			<Switch>
 				<Route exact path="/" component={App} />
 				<Route path="/login" component={Login} />
 				<Route path="/register" component={Register} />
 			</Switch>
-		</Router>
-	</React.StrictMode>,
+		</Router>,
+	// </React.StrictMode>,
 	document.getElementById('root')
 );
 
